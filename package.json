@@ -1,0 +1,18 @@
+{
+  "name": "api-crud-challenge-nsc",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "seed": "node src/lib/users_seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

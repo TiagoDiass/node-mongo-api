@@ -52,7 +52,13 @@ const UserSchema = new mongoose.Schema({
 
         number: {
             type: Number,
-            required: true
+            required: true,
+            validate: [
+                function (value) {
+                    return value > 0;
+                },
+                message = 'This number is not valid'
+            ]
         },
 
         complement: {

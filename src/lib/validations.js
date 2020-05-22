@@ -64,29 +64,3 @@ module.exports = {
         return userAge >= 18;
     }
 }
-
-function convertToDate (timestamp) {
-    const date = new Date(timestamp);
-
-    let dateFormatted = date.toLocaleDateString('pt-BR');
-    dateFormatted = dateFormatted.split('-');
-    console.log(dateFormatted);
-
-    const day = dateFormatted[2];
-    const month = dateFormatted[1];
-    const year = dateFormatted[0];
-
-    return `${day}/${month}/${year}`;
-}
-
-function convertToTimestamp (date) {
-    date = date.split('/');
-    console.log(date);
-
-    let newDate = `${date[1]}/${date[0]}/${date[2]}`; // it needs to be MM-DD-YYYY
-    const correctDate = new Date(newDate);
-    console.log(correctDate);
-
-    console.log(correctDate.getTime());
-    return correctDate.getTime();
-}

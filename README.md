@@ -323,8 +323,9 @@ Caso o ID passado seja válido, a resposta será a seguinte:
 
 Após ter testado ela, você pode parar o seu funcionamento voltando ao terminal Git Bash que você utilizou para iniciar a API, e apertar <kbd>CTRL</kbd>+<kbd>C</kbd>, após isso a API será parada e você não conseguirá mais testá-la enquanto você não a iniciar novamente, após isso você pode ir no CMD onde você iniciou o servidor do MongoDB e apertar <kbd>CTRL</kbd>+<kbd>C</kbd> , após isso o servidor do MongoDB também será desligado :)
 
-#### Contato
-- [Linkedin](https://www.linkedin.com/in/tiagodiass)
-- Email: tiago.costadiasss@gmail.com
+---
 
-##### Espero que tenha gostado do projeto :smiley:
+Espero que tenha gostado do projeto :smiley:<br>
+:wave: [Entre em contato!](https://www.linkedin.com/in/tiagodiass)
+
+### Autor: Tiago Dias
